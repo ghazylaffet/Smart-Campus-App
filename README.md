@@ -70,18 +70,6 @@ The included rules require authentication before users can access application da
 
 For a production deployment, rules should be adapted to the application's exact authorization requirements.
 
-**Important:** Never commit private Firebase service-account keys, API secrets, or other credentials to GitHub.
-
-## Project Organization
-
-```text
-Smart-Campus-Firebase/
-├── README.md
-├── firebase/
-│   ├── database.example.json
-│   └── database.rules.json
-└── .gitignore
-```
 
 ## Future Android Integration
 
@@ -93,7 +81,3 @@ The Android application can use this Firebase backend to:
 - Create and update academic tasks
 - Track task completion
 - Synchronize information between multiple devices
-
-## License
-
-This project is intended for educational and academic use.
