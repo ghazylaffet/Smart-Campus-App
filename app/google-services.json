@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "172714517995",
+    "firebase_url": "https://smartcampus-5d35c-default-rtdb.firebaseio.com",
+    "project_id": "smartcampus-5d35c",
+    "storage_bucket": "smartcampus-5d35c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172714517995:android:f25f3cac2fc3ba90f065ae",
+        "android_client_info": {
+          "package_name": "com.example.smartcampus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4MB9cSz_7MUWaEOXysWlCjeo-qkrMmX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172714517995:android:9c03690b29d04ba0f065ae",
+        "android_client_info": {
+          "package_name": "com.smartcampus.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4MB9cSz_7MUWaEOXysWlCjeo-qkrMmX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
