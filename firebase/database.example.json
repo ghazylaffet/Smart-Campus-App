@@ -1,0 +1,27 @@
+{
+  "users": {
+    "exampleUserId": {
+      "username": "Student",
+      "email": "student@example.com",
+      "createdAt": 1750000000000
+    }
+  },
+  "messages": {
+    "exampleMessageId": {
+      "senderId": "exampleUserId",
+      "senderName": "Student",
+      "message": "Welcome to Smart Campus!",
+      "timestamp": 1750000000000
+    }
+  },
+  "tasks": {
+    "exampleTaskId": {
+      "userId": "exampleUserId",
+      "title": "Complete embedded systems assignment",
+      "description": "Finish the assignment before the deadline.",
+      "dueDate": "2026-09-15",
+      "completed": false,
+      "createdAt": 1750000000000
+    }
+  }
+}
