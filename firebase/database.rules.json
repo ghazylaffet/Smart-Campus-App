@@ -1,0 +1,31 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+
+    "users": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+
+    "messages": {
+      "$messageId": {
+        ".validate": "newData.hasChildren(['senderId', 'senderName', 'message', 'timestamp'])",
+        "senderId": {
+          ".validate": "newData.val() === auth.uid"
+        }
+      }
+    },
+
+    "tasks": {
+      "$taskId": {
+        ".validate": "newData.hasChildren(['userId', 'title', 'completed'])",
+        "userId": {
+          ".validate": "newData.val() === auth.uid"
+        }
+      }
+    }
+  }
+}
