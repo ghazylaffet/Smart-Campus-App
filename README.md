@@ -69,15 +69,3 @@ The file `firebase/database.example.json` contains example data that can be used
 The included rules require authentication before users can access application data.
 
 For a production deployment, rules should be adapted to the application's exact authorization requirements.
-
-
-## Future Android Integration
-
-The Android application can use this Firebase backend to:
-
-- Authenticate users
-- Read and update user profiles
-- Send and receive messages in real time
-- Create and update academic tasks
-- Track task completion
-- Synchronize information between multiple devices
